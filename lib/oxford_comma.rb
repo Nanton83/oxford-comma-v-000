@@ -7,6 +7,6 @@ elsif array >= 3
 new_array_end = "and #{array[-1]}"
 array.pop
 array << new_array_end
-array.join(, )
+array.join(,)
 end
 end
