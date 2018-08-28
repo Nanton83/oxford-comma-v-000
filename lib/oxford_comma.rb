@@ -3,6 +3,7 @@ if array.length == 1
   array.join
 elsif array.length == 2 
 array.join(" and ")
-elsif 
+elsif array >= 3
+new_array = 
 end
 end
