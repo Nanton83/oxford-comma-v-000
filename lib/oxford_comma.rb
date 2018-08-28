@@ -8,5 +8,4 @@ new_array_end = "and #{array[-1]}"
 array.pop
 array << new_array_end
 end
-array
 end
