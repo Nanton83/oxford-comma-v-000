@@ -6,7 +6,7 @@ array.join(" and ")
 elsif array >= 3
 new_array_end = "and #{array[-1]}"
 array.pop
-array.join(,)
+array.join(",")
 array << new_array_end
 end
 end
