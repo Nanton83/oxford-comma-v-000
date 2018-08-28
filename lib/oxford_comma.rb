@@ -4,6 +4,9 @@ if array.length == 1
 elsif array.length == 2 
 array.join(" and ")
 elsif array >= 3
-new_array = "and #{array[-1]}"
+new_array_end = "and #{array[-1]}"
+array.pop
+array << new_array_end
 end
+array
 end
